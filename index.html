@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Textuais</title>
+</head>
+<body>
+
+    <style></style>
+    <h1>Exemplos de Elementos Textuais</h1>
+
+    <section>
+
+
+        <!-- texto formatado, existe diferença visual -->
+        <h2>Texto Formatado</h2>
+
+        <!-- section preserva os espaçoes e as quebras de linha, preserva o formato original do texto -->
+        <pre>Mateus             Henrique
+            de Oliveira Gonçalves
+        </pre><br>
+
+        <!-- explica ao navegador que é uma citação a um texto importante -->
+        <blockquote>citação de um texto importante</blockquote><br>
+
+        <!-- avisa ao navegador que esse texto é importante e esta ênfatisado -->
+        <strong>Texto com ênfase forte</strong><br>
+
+        <!-- avisa ao navegador que esse texto é importante e esta ênfatisado e em italico -->
+        <em>Texto com leve ênfase em italico</em><br>
+
+        <!-- texto menos como se fosse um comentario secundario -->
+        <small>Texto menor</small><br>
+
+        <!-- texto riscado no meio, normalmente de alguma citação que não faz mais sentido -->
+        <del>Texto riscado</del><br>
+
+        <!-- texto inserido no lugar daquele que esta desatuallizado  -->
+        <ins>Texto inserido  </ins><br>
+
+        <!-- letra ou numero sub escrito  -->
+        <p>H<sub>2</sub>O</p>
+
+        <!-- letra ou numero sobre escrito -->
+        <P>x<sup>2</sup></P>
+      
+        <!-- avisando o navegador que é um exemplo de codigo -->
+        <code>console.log('hello,word!');</code>
+
+        <!-- avisando ao navegador que a letra ou numero entre o var é uma variavel matematica -->
+        <p><var>x</var>= 10</p><br>
+
+        <!-- siada/ressultado de um codigo -->
+        <samp>Exemplo de saida de comando</samp><br>
+
+        <!-- aviso ao navegador que é um Atalho de teclado -->
+        <kbd>ctrl + C</kbd>
+
+      
+           
+
+
+    </section>
+
+    <section>
+        <h2>Termos e Citações</h2>
+
+        <!-- usada para explicar uma Definição fica com aparencia de italico -->
+        <dfn>superfluo</dfn><br>
+
+
+        <!-- citar linguagens de programação ou até mesmo citações comuns -->
+        <abbr title="Hyperttext Markup Language">HTML</abbr><br>
+        
+        <!-- citação de obras literarias -->
+        <cite>O clube da Luta</cite><br>
+
+        <!-- citaçõs mais curtas -->
+        <q>citação curta</q><br>
+
+        <!-- Container usado para agrupar e organizar elementos bem util na hora de formatar no CSS-->
+        <span>Texto estilizado com span</span>
+
+        <!-- Termo e Descrição -->
+        <dl>
+            <dt>Css</dt>
+            <dd>Linguagem de Folha de Estilo</dd>
+
+            <dt>HTML</dt>
+            <dd>Linguagem de marvação</dd>
+        </dl>
+
+
+    
+    </section>
+
+
+
+    <!-- Div tambem serve como um container, para juntar varios elementos em um pacote e pode ser colocado de tudo dentro -->
+    <div class="inicio">
+
+        <figure>
+            <img src="data:image/jpeg;base64,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" alt="Imagem do sol com tom avermelhado causado pela poluição">
+            <figcaption>Sol avermelhado causado pela poluição</figcaption>
+      
+        </figure>
+
+        <time datetime="2024-09-10">10 de setembro de 2024</time><br>
+
+
+        <!-- endereço de email -->
+        <address>contato: exemplo@dominio.com</address>
+        <p><bdo dir="rtl">Texto da direita para a esquerda</bdo></p>
+
+        <!-- utilizado para ideogramas -->
+        <ruby>漢<rt>Kanji</rt></ruby>
+
+        <progress value="70" max="100"></progress><br>
+        <meter value="0.6">60%</meter>
+
+
+        
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
